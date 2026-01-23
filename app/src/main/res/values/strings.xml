@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Dice</string>
+    <string name="string_launch">Press the button to throw the dice</string>
+    <string name="button_throw">Throw!</string>
 </resources>

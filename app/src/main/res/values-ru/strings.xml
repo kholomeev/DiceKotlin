@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Кубик</string>
+    <string name="string_launch">Нажмите на кнопку, чтобы бросить кубик</string>
+    <string name="button_throw">Бросить!</string>
+</resources>
