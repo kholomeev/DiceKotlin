@@ -9,3 +9,10 @@
 
 ### Скрин из дизайнера
 ![](/screen.png)
+
+### Команды
+override
+super.onCreate(savedInstanceState)
+binding = ActivityMainBinding.inflate(layoutInflater)
+app:layout_constraintTop_toBottomOf="@+id/result_text" 
+app:layout_constraintHorizontal_bias="0.5"
