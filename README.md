@@ -11,8 +11,12 @@
 ![](/screen.png)
 
 ### Команды
-override
-super.onCreate(savedInstanceState)
-binding = ActivityMainBinding.inflate(layoutInflater)
-app:layout_constraintTop_toBottomOf="@+id/result_text" 
-app:layout_constraintHorizontal_bias="0.5"
+override — переопределение функции, при отсутствии на onCreate скроет член супертипа 'FragmentActivity'
+
+super.onCreate(savedInstanceState) — вызов при инициализации активности
+
+binding = ActivityMainBinding.inflate(layoutInflater) — преобразование .xml-файла в файлы представления Kotlin/Java
+
+app:layout_constraintTop_toBottomOf="@+id/result_text" — используется в ConstraintLayout, верхняя граница позиционируется относительно нижней границы другого элемента 
+
+app:layout_constraintHorizontal_bias="0.5" — коэффициент распределения (размер зоны ограничения / размер представления), от 0 до 1
